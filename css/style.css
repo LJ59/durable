@@ -1,0 +1,201 @@
+        /*CSS Suxx*/
+        
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            line-height: 2rem;
+            color: #17323f;
+        }
+        
+        header {
+            background: url(/img/illustration.jpg) no-repeat center center;
+            background-position-y: 5em;
+            height: 100%;
+            background-size: cover;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #139FC6;
+            text-align: center;
+        }
+        
+        h1 img {
+            width: 20%;
+            min-width: 280px;
+            margin: 2rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            color: #17323f;
+            line-height: 2.5rem;
+            margin-top: 0;
+            font-weight: 600;
+        }
+        
+        h2 strong {
+            font-size: 2.5rem;
+            font-weight: 900;
+        }
+        
+        a {
+            color: #006487;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        a:visited {
+            color: #660099;
+        }
+        
+        button {
+            background: none;
+            border: none;
+            margin: 0;
+            padding: 0;
+            font-size: inherit;
+        }
+        
+        button:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        
+        .confort {
+            background-color: #ECF4F7;
+        }
+        
+        .menubouton {
+            position: fixed;
+            width: 5rem;
+            height: 5rem;
+            bottom: 2rem;
+            margin-left: -40px;
+        }
+        /*Bouton fermer*/
+        /*.fermer {}*/
+        
+        .fermer:hover {
+            text-decoration: none;
+        }
+        
+        .contenu {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        main img {
+            padding-top: 4em;
+            width: 100%;
+            max-width: 600px;
+        }
+        
+        .couleurfond1 {
+            padding: 5rem 8%;
+            background-color: #ECF4F7;
+        }
+        
+        .couleurfond2 {
+            padding: 5rem 8%;
+        }
+        /*je sais pas*/
+        /*
+        .outils {}*/
+        
+        .nordinfo {
+            background-color: #17323F;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        .nordinfo a {
+            color: #60c6f2;
+            text-decoration: none;
+        }
+        
+        .nordinfo :hover {
+            color: #ffffff;
+            text-decoration: underline;
+        }
+        
+        .nordinfo :visited {
+            color: #60c6f2;
+        }
+        
+        footer {
+            background-color: #139fc6;
+        }
+        
+        footer img {
+            width: 25%;
+            min-width: 281px;
+            margin: 2rem 2rem 2rem 0px;
+        }
+        
+        .footflex {
+            display: flex;
+        }
+        
+        .contact a {
+            color: #17323F;
+        }
+        
+        .footfooter {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 1rem
+        }
+        /*
+.__col{}
+
+.__col._font-sizes{}
+
+.__col._dyslexia{}
+
+*/
+        /*modale*/
+        
+        .c-dialog {
+            position: fixed;
+            z-index: 100;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            padding: 2.4rem;
+            overflow-y: scroll;
+            -webkit-overflow-scrolling: touch;
+            background-color: rgba(black, .75);
+            transition: .2s;
+        }
+        
+        .c-dialog__box {
+            flex: 1;
+            max-width: 48rem;
+            margin: auto;
+            padding: 2.4rem;
+            background-color: white;
+        }
+        
+        .c-dialog[aria-hidden="true"] {
+            visibility: hidden;
+            opacity: 0;
+        }
+        
+        .imagefond {
+            left: 0;
+            min-height: 100%;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: -999;
+        }
