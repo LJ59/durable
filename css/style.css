@@ -11,7 +11,7 @@
         }
         
         header {
-            background: url(/img/illustration.jpg) no-repeat center center;
+            background: url(img/illustration.jpg) no-repeat center center;
             background-position-y: 5em;
             height: 100%;
             background-size: cover;

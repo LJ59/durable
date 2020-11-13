@@ -106,4 +106,10 @@ triggers.forEach((trigger) => {
             close(dialog, trigger);
         }
     });
+    //lolo pour fermer la modale au click sur un lien de la modale
+
+    dialog.addEventListener("click", function() {
+        document.getElementById("dialog").setAttribute('aria-hidden', true);
+    });
+
 });
