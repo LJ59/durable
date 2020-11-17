@@ -220,18 +220,20 @@
             </div>
         </section>
         <div class="footfooter">
-            <button type="button" aria-haspopup="legale" aria-controls="legale">Mentions légales</button></div>
-
-
+            <button type="button" aria-haspopup="dialog" aria-controls="legale">Mentions légales</button>
+        </div>
 
     </footer>
-    <div id="legale" role="dialog" aria-labelledby="Mentions légales" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog">
+
+    <div id="legale" role="dialog" aria-labelledby="Mentions legales" aria-describedby="dialog-desc1" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog">
         <div role="document" class="c-dialog__box">
-            <button class="fermer" type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="legale">X</button>
-            <h2>Mentions légales</h2>
-            <p>Contenus Mentions légales</p>
+            <button type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="legale">X</button>
+            <h2 id="dialog-title1">Mentions légales</h2>
+            <p id="dialog-desc1">Ceci est le début des mentions légales du site Nord durable</p>
+
         </div>
     </div>
+
 
     <div id="contact" role="dialog" aria-labelledby="Contact" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog"></div>
     <!-- Appel Menu modal -->
