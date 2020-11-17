@@ -15,7 +15,7 @@
         }
         
         header {
-            background: url(img/illustration.jpg) no-repeat center center;
+            background: url(../img/illustration.jpg) no-repeat center center;
             background-position-y: 5em;
             height: 100%;
             background-size: cover;
@@ -214,13 +214,13 @@
             /* Make sure it does not overlap */
             height: 5rem;
             width: 5rem;
-            background: url(../img/public_img_Top_On.svg) no-repeat center center;
+            background: url(../img/public_img_Top_Off.svg) no-repeat center center;
             transition: background 0.25s ease-in-out;
             -webkit-transition: background 0.25s ease-in-out;
         }
         
         #BacktoTop:hover {
-            background: url(../img/public_img_Top_Off.svg) no-repeat center center;
+            background: url(../img/public_img_Top_On.svg) no-repeat center center;
             transition: background 0.25s ease-in-out;
             -webkit-transition: background 0.25s ease-in-out;
         }
