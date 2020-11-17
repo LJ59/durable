@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="fr" xml:lang="fr" xmlns="http://www.w3.org/1999/xhtml" data-font="regular" style="font-size:100%;">
 
 <head>
     <meta charset="UTF-8">
@@ -13,15 +13,17 @@
     <title>Nord Durable</title>
     <meta name="description" content="Les 10 engagements du Département du Nord pour la transition écologique et solidaire">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="icon" type="image/png" href="https://communication.lenord.fr/fr/gallery/13074/images/png/f82e961885d94e36b65a456c7620dea2.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav id="confort">
-        <div class="confort">
+        <div class="confort top-bar">
             <div class="__col _font-sizes">
-                <ul class="_font-sizes">
+                <!-- <ul class="_font-sizes"> -->
+                <ul>
                     <li>
                         <button data-font-size="increase" title="A+ Agrandir le texte" data-tabindex-mobile="6" aria-disabled="false"><span>A+</span></button>
                     </li>
@@ -31,13 +33,15 @@
                 </ul>
             </div>
             <div class="__col _dyslexia">
-                <button data-font-toggle="dyslexia" data-tabindex-mobile="8" aria-pressed="false"><span>Dyslexie</span></button>
+                <!-- <button data-font-toggle="dyslexia" data-tabindex-mobile="8" aria-pressed="false"><span>Dyslexie</span></button> -->
+                <button data-font-toggle="dyslexia" aria-pressed="false"><span>Dyslexie</span></button>
             </div>
         </div>
     </nav>
     <header>
         <h1><img src="https://communication.lenord.fr/fr/gallery/13074/images/png/60b502ada7f44873978617d666cb40ea.png" alt="Nord, le Département est là pour un Nord durable"></h1>
         <button class="menubouton" type="button" aria-haspopup="dialog" aria-controls="dialog" aria-hidden="false"><img src="https://cloud.brandmaster.com/original/gallery/13074/files/original/c9025a9a-84ed-4b12-aaec-31c7260cc59f.svg" alt="Menu"></button>
+        <button onclick="topFunction()" id="BacktoTop" aria-label="Haut de page" title="Retour en haut de page"></button>
         <div class="imagefond"><img src=""></div>
     </header>
 
@@ -230,11 +234,14 @@
     </div>
 
     <div id="contact" role="dialog" aria-labelledby="Contact" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog"></div>
-    <!-- Appel Menu de confort -->
     <!-- Appel Menu modal -->
     <script src="js/modale.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQFJ6WT773"></script>
+    <!-- Appel Menu de confort -->
+    <script type="text/javascript" src="js/fontChanger.js"></script>
+    <!-- Appel du bouton Back to top -->
+    <script src="js/top.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 

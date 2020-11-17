@@ -1,5 +1,9 @@
         /*CSS Suxx*/
         
+        html {
+            scroll-behavior: smooth;
+        }
+        
         body {
             margin: 0;
             padding: 0;
@@ -198,4 +202,25 @@
             top: 0;
             width: 100%;
             z-index: -999;
+        }
+        /* Bouton scroll to top */
+        
+        #BacktoTop {
+            display: none;
+            position: fixed;
+            bottom: 2rem;
+            right: 3rem;
+            z-index: 99;
+            /* Make sure it does not overlap */
+            height: 5rem;
+            width: 5rem;
+            background: url(../img/public_img_Top_On.svg) no-repeat center center;
+            transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
+        }
+        
+        #BacktoTop:hover {
+            background: url(../img/public_img_Top_Off.svg) no-repeat center center;
+            transition: background 0.25s ease-in-out;
+            -webkit-transition: background 0.25s ease-in-out;
         }
