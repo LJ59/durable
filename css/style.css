@@ -137,15 +137,32 @@
         footer {
             background-color: #139fc6;
         }
-        
-        footer img {
+        /* footer img {
             width: 25%;
             min-width: 281px;
             margin: 2rem 2rem 2rem 0px;
+        } */
+        
+        footer img {
+            width: 15rem;
+            height: 6rem;
+            margin: 0 auto;
+            padding: 1rem;
         }
         
         .footflex {
             display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        
+        .footlogo {
+            align-items: center;
+        }
+        
+        .footcontact {
+            align-items: center;
         }
         
         .contact a {
