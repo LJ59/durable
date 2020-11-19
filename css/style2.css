@@ -53,10 +53,10 @@ body {
 }
 
 .top-bar>.__col._dyslexia button.active {
-    /* color: #17323f;
-    background-color: #fff; */
-    color: #fff;
-    background-color: #17323f;
+    color: #17323f;
+    background-color: #fff; 
+    /* color: #fff;
+    background-color: #17323f;*/
     border-radius: 0.25em;
 }
 
