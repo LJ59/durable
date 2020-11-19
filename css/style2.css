@@ -26,8 +26,8 @@ body {
 }
 
 .top-bar {
-    /* background-color: #17323f; */
-    background-color: #ECF4F7;
+    background-color: #17323f; 
+    /*background-color: #ECF4F7;*/
     color: #fff;
     font-size: 1rem;
     padding: 0.5em 1em;
@@ -72,8 +72,8 @@ body {
 }
 
 .top-bar button {
-    /* color: #fff; */
-    color: #17323F;
+    color: #fff; 
+    /*color: #17323F;*/
     text-decoration: none;
 }
 
