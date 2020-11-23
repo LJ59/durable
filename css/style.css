@@ -10,7 +10,7 @@
             height: 100vh;
             font-family: 'Roboto', sans-serif;
             font-size: 1.2rem;
-            line-height: 2rem;
+            line-height: 1.75rem;
             color: #17323f;
         }
         
@@ -55,6 +55,10 @@
             text-decoration: none;
         }
         
+        a:focus {
+            text-decoration: none
+        }
+        
         a:visited {
             color: #660099;
         }
@@ -95,6 +99,27 @@
             margin: 0 auto;
         }
         
+        .contenu li {
+            list-style-type: circle;
+            list-style-position: inside;
+            margin-left: -1.9em;
+            color: #17323f;
+        }
+        
+        .contenu a::after {
+            content: url(/img/lien_externe.svg);
+            display: inline-block;
+            width: 0.8rem;
+            padding-left: 4px;
+        }
+        
+        .contenu a::after:visited {
+            content: url(/img/lien_externev.svg);
+            display: inline-block;
+            width: 0.8rem;
+            padding-left: 4px;
+        }
+        
         main img {
             padding-top: 4em;
             width: 100%;
@@ -109,9 +134,29 @@
         .couleurfond2 {
             padding: 5rem 8%;
         }
-        /*je sais pas*/
-        /*
-        .outils {}*/
+        
+        .outils li {
+            list-style: none;
+            text-align: center;
+            padding-bottom: 0.5em;
+            margin-left: -1.9em;
+        }
+        
+        .outils button {
+            text-decoration: underline;
+        }
+        
+        .outils button:hover {
+            text-decoration: none;
+        }
+        
+        .outils button:focus {
+            text-decoration: none
+        }
+        
+        .outils li::before {
+            content: "\200B";
+        }
         
         .nordinfo {
             background-color: #17323F;
@@ -122,12 +167,17 @@
         
         .nordinfo a {
             color: #60c6f2;
-            text-decoration: none;
+        }
+        
+        .nordinfo a::after {
+            content: url(/img/lien_externe.svg);
+            display: inline-block;
+            width: 0.8rem;
+            padding-left: 4px;
         }
         
         .nordinfo :hover {
             color: #ffffff;
-            text-decoration: underline;
         }
         
         .nordinfo :visited {
@@ -137,11 +187,6 @@
         footer {
             background-color: #139fc6;
         }
-        /* footer img {
-            width: 25%;
-            min-width: 281px;
-            margin: 2rem 2rem 2rem 0px;
-        } */
         
         footer img {
             width: 15rem;
@@ -163,16 +208,34 @@
         
         .footcontact {
             align-items: center;
+            margin: 1em 0;
         }
         
-        .contact a {
-            color: #17323F;
+        .footcontact p {
+            color: #021720;
+        }
+        
+        .footcontact a {
+            color: #021720;
         }
         
         .footfooter {
             background-color: #ffffff;
             text-align: center;
             padding: 1rem
+        }
+        
+        .footfooter button {
+            text-decoration: underline;
+            color: #17323f;
+        }
+        
+        .footfooter button:hover {
+            text-decoration: none;
+        }
+        
+        .footfooter button:focus {
+            text-decoration: none
         }
         /*
 .__col{}
@@ -241,3 +304,4 @@
             transition: background 0.25s ease-in-out;
             -webkit-transition: background 0.25s ease-in-out;
         }
+        /* Lien pour copier l URL de la page */

@@ -9,14 +9,14 @@ window.onscroll = function() {
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
     }
 }
 
-// Quand on cliqe sur le bouton, on revient en haut de la page
+// Quand on clique sur le bouton, on revient en haut de la page
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
