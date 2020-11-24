@@ -62,14 +62,15 @@
 //document.querySelector('p').addEventListener('click', async event => {
 document.getElementById('urlCopy').addEventListener('click', async event => {
     if (!navigator.clipboard) {
-        // Clipboard API not available
+        // Clipboard API non disponible
         return
     }
     //const text = event.target.innerText
     const text = 'https://durable.lenord.fr/'
     try {
         await navigator.clipboard.writeText(text)
-        event.target.textContent = 'https://durable.lenord.fr/ a été copié'
+        alert("Le lien " + `${text}` + " a été copié ");
+        //event.target.textContent = 'https://durable.lenord.fr/ a été copié'
     } catch (err) {
         console.error('Echec de la copie du lien', err)
     }
