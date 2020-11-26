@@ -13,13 +13,12 @@
     <title>Nord Durable</title>
     <meta name="description" content="Les 10 engagements du Département du Nord pour la transition écologique et solidaire">
     <link rel="stylesheet" href="css/style.css">
-    <!-- menu de confort -->
     <link rel="stylesheet" href="css/style2.css">
-    <!-- Print CSS -->
-    <link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
     <link rel="icon" type="image/png" href="https://communication.lenord.fr/fr/gallery/13074/images/png/f82e961885d94e36b65a456c7620dea2.png" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+    <link rel="preload" href="img/Top_On.svg" as="image">
+    <link rel="preload" href="img/Fermer_On.svg" as="image">
+    <link rel="preload" href="img/Menu_On.svg" as="image">
 </head>
 
 <body>
@@ -37,16 +36,16 @@
                 </ul>
             </div>
             <div class="__col _dyslexia">
-                <!-- <button data-font-toggle="dyslexia" data-tabindex-mobile="8" aria-pressed="false"><span>Dyslexie</span></button> -->
-                <button data-font-toggle="dyslexia" aria-pressed="false"><span>Dyslexie</span></button>
+                <button data-font-toggle="dyslexia" data-tabindex-mobile="8" aria-pressed="false"><span>Dyslexie</span></button> 
+                <!-- <button data-font-toggle="dyslexia" aria-pressed="false"><span>Dyslexie</span></button>-->
             </div>
         </div>
     </nav>
     <header>
         <h1><img src="https://communication.lenord.fr/fr/gallery/13074/images/png/60b502ada7f44873978617d666cb40ea.png" alt="Nord, le Département est là pour un Nord durable"></h1>
-        <button class="menubouton" type="button" aria-haspopup="dialog" aria-controls="dialog" aria-hidden="false"><img src="https://cloud.brandmaster.com/original/gallery/13074/files/original/c9025a9a-84ed-4b12-aaec-31c7260cc59f.svg" alt="Menu"></button>
+        <button class="menubouton" type="button" aria-haspopup="dialog" aria-controls="dialog" aria-hidden="false"></button>
         <button onclick="topFunction()" id="BacktoTop" aria-label="Haut de page" title="Retour en haut de page"></button>
-        <div class="imagefond"><img src=""></div>
+        <div class="tete"><img class="imagefond" src="img/illustration.jpg"></div>
     </header>
 
     <nav id="menu" class="js-document">
@@ -54,23 +53,23 @@
 
         <div id="dialog" role="dialog" aria-labelledby="Raccourcis vers les 10 mesures" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog">
             <div role="document" class="c-dialog__box">
-                <button class="fermer" type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="dialog">X</button>
+                <div class="fermeture"><button class="fermer" type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="dialog"></button></div>
                 <ol>
-                    <li><a href="#engagement1">Faire des collèges les démonstrateurs de la transition</a></li>
-                    <li><a href="#engagement2">Lutter contre les passoires énergétiques sur le territoire</a></li>
-                    <li><a href="#engagement3">Renforcer les politiques en faveur de la biodiversité et des puits de carbone</a></li>
-                    <li><a href="#engagement4">Favoriser la production alimentaire de proximité, de saison et de qualité</a></li>
-                    <li><a href="#engagement5">Mobiliser les habitants pour les rendre plus solidaires entre eux</a></li>
-                    <li><a href="#engagement6">Mobiliser les tiers-lieux dédiés à l’économie solidaire comme vecteur d’insertion</a></li>
-                    <li><a href="#engagement7">Favoriser les mobilités innovantes en milieu rural</a></li>
-                    <li><a href="#engagement8">Accompagner les acteurs du territoire pour mettre en place le zéro artificialisation nette</a></li>
-                    <li><a href="#engagement9">Aligner les subventions avec les objectifs de transition</a></li>
-                    <li><a href="#engagement10">Mettre en place un approvisionnement durable dans tous les restaurants collectifs d’ici 2025</a></li>
+                    <li><a href="#engagement1">1. Faire des collèges les démonstrateurs de la transition</a></li>
+                    <li><a href="#engagement2">2. Lutter contre les passoires énergétiques sur le territoire</a></li>
+                    <li><a href="#engagement3">3. Renforcer les politiques en faveur de la biodiversité et des puits de carbone</a></li>
+                    <li><a href="#engagement4">4. Favoriser la production alimentaire de proximité, de saison et de qualité</a></li>
+                    <li><a href="#engagement5">5. Mobiliser les habitants pour les rendre plus solidaires entre eux</a></li>
+                    <li><a href="#engagement6">6. Mobiliser les tiers-lieux dédiés à l’économie solidaire comme vecteur d’insertion</a></li>
+                    <li><a href="#engagement7">7. Favoriser les mobilités innovantes en milieu rural</a></li>
+                    <li><a href="#engagement8">8. Accompagner les acteurs du territoire pour mettre en place le zéro artificialisation nette</a></li>
+                    <li><a href="#engagement9">9. Aligner les subventions avec les objectifs de transition</a></li>
+                    <li><a href="#engagement10">10. Mettre en place un approvisionnement durable dans tous les restaurants collectifs d’ici 2025</a></li>
                 </ol>
             </div>
         </div>
     </nav>
-    <main id="imprime">
+    <main>
 
         <section class="couleurfond2">
             <div class="contenu">
@@ -88,7 +87,7 @@
                     <li>Identifier les collèges "pilotes" et essaimer les bonnes pratiques.</li>
                     <li>Accompagner tous les collèges dans l’élaboration et la mise en œuvre de leurs stratégies de transition écologique.</li>
                 </ul>
-                <a href="">Découvrez les dernières initiatives menées dans les collèges</a>
+                <a href="" title="Découvrez les dernières initiatives menées dans les collèges sur Nord info">Découvrez les dernières initiatives menées dans les collèges</a>
                 <img src="img/01.jpg" alt=""></div>
         </section>
 
@@ -101,7 +100,7 @@
                     <li>Formation des relais de proximité à la lutte contre la précarité énergétique.</li>
                     <li>Animation et coordination départementale sur la précarité énergétique.</li>
                 </ul>
-                <a href="">Retrouvez toute l’actualité liée à la maîtrise énergétique</a>
+                <a href="" title="Retrouvez toute l’actualité liée à la maîtrise énergétique sur Nord info">Retrouvez toute l’actualité liée à la maîtrise énergétique</a>
                 <img src="img/02.jpg/" alt=""></div>
         </section>
 
@@ -114,7 +113,7 @@
                     <li>Renaturation du réseau départemental d’infrastructures.</li>
                     <li>Mettre en œuvre un plan de valorisation des chemins inscrits au PDIPR (Plan Départemental des Itinéraires de Promenade et de Randonnée).</li>
                 </ul>
-                <a href="">Découvrez les dernières initiatives en faveur de la biodiversité </a>
+                <a href="" title="Découvrez les dernières initiatives en faveur de la biodiversité sur Nord info">Découvrez les dernières initiatives en faveur de la biodiversité</a>
                 <img src="img/03.jpg/" alt=""></div>
         </section>
         <section class="couleurfond2" id="engagement4">
@@ -125,7 +124,7 @@
                     <li>Soutien à la création de jardins familiaux et espaces partagés : partenariat avec les établissements médico-sociaux.</li>
                     <li>Soutien aux innovations et expérimentations d’autonomie alimentaire pour des zones agglomérées plus durables et résilientes.</li>
                 </ul>
-                <a href="">Retrouvez toute l’actualité liée à l’alimentation durable</a>
+                <a href="" title="Retrouvez toute l’actualité liée à l’alimentation durable sur Nord info">Retrouvez toute l’actualité liée à l’alimentation durable</a>
                 <img src="img/04.jpg/" alt=""></div>
         </section>
 
@@ -136,8 +135,8 @@
                     <li>Intégrer Nord durable au fonctionnement et à la réflexion du Conseil Départemental des Jeunes.</li>
                     <li>La résilience par la solidarité.</li>
                 </ul>
-                <a href="">Découvrez les dernières initiatives solidaires</a>
-                <img src="img/05.jpg/" alt=""></div>
+                <a href="" title="Découvrez les dernières initiatives solidaires sur Nord info">Découvrez les dernières initiatives solidaires</a>
+                <img src="img/05.png/" alt=""></div>
         </section>
 
         <section class="couleurfond2" id="engagement6">
@@ -147,7 +146,7 @@
                     <li>Promouvoir l’insertion dans les métiers de l’économie circulaire.</li>
                     <li>Développer les parcours d’insertion en mobilisant les tiers-lieux dédiés à l’économie circulaire.</li>
                 </ul>
-                <a href="">Retrouvez toute l’actualité liée à l’économie solidaire</a>
+                <a href="" title="Retrouvez toute l’actualité liée à l’économie solidaire sur Nord info">Retrouvez toute l’actualité liée à l’économie solidaire</a>
                 <img src="img/06.jpg/" alt=""></div>
         </section>
 
@@ -159,7 +158,7 @@
                     <li>Organiser et participer à la mise en réseau des collectivités pour partager les pratiques en matière de mobilité et de ruralité.</li>
                     <li>Le Département chef de file d’une politique cyclable ambitieuse dans le Nord.</li>
                 </ul>
-                <a href="">Découvrez les dernières initiatives en faveur de la mobilité en milieu rural</a>
+                <a href="" title="Découvrez les dernières initiatives en faveur de la mobilité en milieu rural sur Nord info">Découvrez les dernières initiatives en faveur de la mobilité en milieu rural</a>
                 <img src="img/07.jpg/" alt=""></div>
         </section>
 
@@ -171,7 +170,7 @@
                     <li>Vers des documents d’urbanisme zéro artificialisation.</li>
                     <li>Aligner les dispositifs d’incitation financière vers l’objectif de zéro artificialisation nette.</li>
                 </ul>
-                <a href="">Retrouvez toute l’actualité liée à l’aménagement durable du territoire</a>
+                <a href="" title="Retrouvez toute l’actualité liée à l’aménagement durable du territoire sur Nord info">Retrouvez toute l’actualité liée à l’aménagement durable du territoire</a>
                 <img src="img/08.jpg/" alt=""></div>
         </section>
 
@@ -183,8 +182,8 @@
                     <li>Création d’un outil d’aide à l’analyse et à la décision.</li>
                     <li>Refonte pilote des dispositifs existants – bonification des projets compatibles avec les objectifs Nord durable.</li>
                 </ul>
-                <a href="">Découvrez les dernières initiatives relatives aux dispositifs de subventions</a>
-                <img src="img/09.jpg/" alt=""></div>
+                <a href="" title="Découvrez les dernières initiatives relatives aux dispositifs de subventions sur Nord info">Découvrez les dernières initiatives relatives aux dispositifs de subventions</a>
+                <img src="img/09.png/" alt=""></div>
         </section>
 
         <section class="couleurfond2" id="engagement10">
@@ -195,29 +194,27 @@
                     <li>Du local au local et durable : accompagner les collèges dans leur démarche d’approvisionnement local en cohérence avec les objectifs Nord durable.</li>
                     <li>Soutenir et accompagner la structuration des filières locales pour répondre à la demande de la restauration collective.</li>
                 </ul>
-                <a href="">Retrouvez toute l’actualité liée à l’approvisionnement durable</a>
+                <a href="" title="Retrouvez toute l’actualité liée à l’approvisionnement durable sur Nord info">Retrouvez toute l’actualité liée à l’approvisionnement durable</a>
                 <img src="img/10.jpg/" alt=""></div>
         </section>
 
 
     </main>
+
     <section>
         <div class="outils">
             <ul>
-                <li><button id="generePDF">Plutôt que d'imprimer cette page, je génère un pdf</button></li>
-                <li><button id="urlCopy">Je copie le lien de cette page</button>
-                </li>
-                <!--onclick="AdvancedCopy()"-->
-            </ul>
+                <li><button>Plutôt que d'imprimer cette page, je génère un pdf</button></li>
+                <li><button>Je copie le lien de cette page</button></ul>
         </div>
     </section>
     <footer>
         <section class="nordinfo">
-            <div><a href="https://info.lenord.fr">Retrouvez toute l'actualité départementale en avant-première sur info.lenord.fr</a></div>
+            <div><a href="https://info.lenord.fr" title="Retrouvez toute l'actualité départementale en avant-première sur info.lenord.fr">Retrouvez toute l'actualité départementale en avant-première sur info.lenord.fr</a></div>
         </section>
         <div class="footflex">
             <div class="footlogo">
-                <a href="https://www.lenord.fr"><img src="https://communication.lenord.fr/fr/gallery/13074/images/png/b38008cb0a8c40488000e96f569c0a91.png" alt="Nord, le Département est là (aller sur lenord.fr)"></a>
+                <a href="https://www.lenord.fr" title="Nord, le Département est là (ouvre un nouvel onglet)"><img src="https://communication.lenord.fr/fr/gallery/13074/images/png/b38008cb0a8c40488000e96f569c0a91.png" alt="Nord, le Département est là (aller sur lenord.fr)"></a>
                 <!-- <a href="https://www.lenord.fr"><img src="img/logo_nord_blanc.png" alt="Nord, le Département est là (aller sur lenord.fr)"></a> -->
             </div>
             <div class="footcontact">
@@ -232,12 +229,13 @@
 
     </footer>
 
-    <div id="legale" role="dialog" aria-labelledby="Mentions legales" aria-describedby="dialog-desc1" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog">
+    <div id="legale" role="dialog" aria-labelledby="Mentions legales" aria-describedby="Mentions légales du site Nord durable" aria-modal="true" aria-hidden="true" tabindex="-1" class="c-dialog">
         <div role="document" class="c-dialog__box">
-            <button type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="legale">X</button>
+            <div class="fermeture"><button type="button" aria-label="Fermer" title="Fermer cette fenêtre modale" data-dismiss="legale"></button></div>
+            <div class="contenumodale">
             <h2 id="dialog-title1">Mentions légales</h2>
             <p id="dialog-desc1">Ceci est le début des mentions légales du site Nord durable</p>
-
+            </div>
         </div>
     </div>
 
@@ -251,11 +249,6 @@
     <script type="text/javascript" src="js/fontChanger.js"></script>
     <!-- Appel du bouton Back to top -->
     <script src="js/top.js"></script>
-    <!-- Appel de la fonction PDF -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js" integrity="sha512-pdCVFUWsxl1A4g0uV6fyJ3nrnTGeWnZN2Tl/56j45UvZ1OMdm9CIbctuIHj+yBIRTUUyv6I9+OivXj4i0LPEYA==" crossorigin="anonymous"></script>
-    <script src="js/pdf.js"></script>
-    <!-- Appel de la fonction de copie du lien -->
-    <script src="js/lien.js"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
