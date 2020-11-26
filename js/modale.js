@@ -115,24 +115,15 @@ triggers.forEach((trigger) => {
 
 });
 
-//const bar = document.querySelector(".menubouton");
-
+//lolo pour cacher le bouton menu au scroll de fin de page
 addEventListener("scroll", function() {
 
     if ((document.body.scrollHeight - pageYOffset) === innerHeight) {
         //si t'es en bas de la page
-        //alert('Yes');
         document.querySelector('.menubouton').style.visibility = "hidden"
     } else {
         document.querySelector('.menubouton').style.visibility = "visible";
     }
 
-    // console.log(`
-    //     Taille page : ${document.body.scrollHeight}
-    //     Taille affichage : ${innerHeight}
-    //     position scroll : ${pageYOffset}
-    //     p : ${document.body.offsetHeight}
-    //     q : ${window.scrollY}
-
-    // `);
+    
 });
