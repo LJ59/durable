@@ -112,4 +112,15 @@ triggers.forEach((trigger) => {
         document.getElementById("dialog").setAttribute('aria-hidden', true);
     });
 
+    //lolo pour cacher le bouton menu au scroll de bas de page
+
+        addEventListener("scroll", function() {
+
+        if ((document.body.scrollHeight - pageYOffset) === innerHeight) {
+        //si t'es en bas de la page
+        document.querySelector('.menubouton').style.visibility = "hidden"
+    } else {
+        document.querySelector('.menubouton').style.visibility = "visible";
+    }
+
 });
