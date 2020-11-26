@@ -122,5 +122,5 @@ triggers.forEach((trigger) => {
     } else {
         document.querySelector('.menubouton').style.visibility = "visible";
     }
-
+        }
 });
