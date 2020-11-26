@@ -106,21 +106,33 @@ triggers.forEach((trigger) => {
             close(dialog, trigger);
         }
     });
+
     //lolo pour fermer la modale au click sur un lien de la modale
 
     dialog.addEventListener("click", function() {
         document.getElementById("dialog").setAttribute('aria-hidden', true);
     });
 
-    //lolo pour cacher le bouton menu au scroll de bas de page
+});
 
-        addEventListener("scroll", function() {
+//const bar = document.querySelector(".menubouton");
 
-        if ((document.body.scrollHeight - pageYOffset) === innerHeight) {
+addEventListener("scroll", function() {
+
+    if ((document.body.scrollHeight - pageYOffset) === innerHeight) {
         //si t'es en bas de la page
+        //alert('Yes');
         document.querySelector('.menubouton').style.visibility = "hidden"
     } else {
         document.querySelector('.menubouton').style.visibility = "visible";
     }
-        }
+
+    // console.log(`
+    //     Taille page : ${document.body.scrollHeight}
+    //     Taille affichage : ${innerHeight}
+    //     position scroll : ${pageYOffset}
+    //     p : ${document.body.offsetHeight}
+    //     q : ${window.scrollY}
+
+    // `);
 });
